@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap');
+html {
+  background-color: #ebecf1;
+  background-image: -webkit-linear-gradient(105deg, #3b6978 40%, #84a9ac 60%);
+  min-height: 1000px;
+}
+
+h1 {
+  color: #c7b198;
+  padding: 10px;
+  margin-bottom: 6rem;
+  font-family: 'Lobster', cursive;
+}
+
+.box {
+  max-width: 400px;
+  margin: 50px auto;
+  background: #ffe2e2;
+  border-radius: 5px;
+  box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.3);
+  font-family: 'Raleway', sans-serif;
+}
+
+#heading {
+  background-color: #204051;
+  text-align: center;
+}
+
+.item {
+  min-height: 70px;
+  display: flex;
+  align-items: center;
+}
+
+
+input:checked+p {
+  text-decoration: line-through;
+  text-decoration-color: #e23e57;
+}
+
+input[type="checkbox"] {
+  margin: 20px;
+}
+
+p {
+  margin: 0;
+  padding: 20px;
+  font-size: 20px;
+  font-weight: 200;
+  color: #212121;
+}
+
+p::first-letter{
+  color:#e23e57;
+  font-size:23px;
+}
+
+form {
+  text-align: center;
+  margin-left: 20px;
+}
+
+button {
+  min-height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  border-color: transparent;
+  background-color: #363636;
+  color: #e23e57;
+  font-size: 30px;
+  padding-bottom: 6px;
+  border-width: 0;
+}
+
+input[type="text"] {
+  text-align: center;
+  height: 60px;
+  top: 10px;
+  border: none;
+  background: transparent;
+  font-size: 20px;
+  font-weight: 200;
+  width: 313px;
+}
+
+input[type="text"]:focus {
+  outline: none;
+  box-shadow: inset 0 -3px 0 0 #A683E3;
+}
+
+::placeholder {
+  color: #323232;
+  opacity: 0.6;
+}
